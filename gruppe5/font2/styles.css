@@ -1,0 +1,153 @@
+*{
+    background-color: #4C4A33;
+    color: #EFE9DD;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+
+#containerfont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+
+#funfact {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+    margin-left: 40px;
+}
+
+#dotlottie-player {
+    width: 1000px; /* Ændre bredden efter behov */
+    height: 1000px; /* Ændre højden efter behov */
+}
+
+h2{
+    font-family: 'Playfair Display';
+    color: #EFE9DD;
+    font-size: 40pt;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+}
+
+p{
+    display: flex;
+    justify-content: center;
+    font-size: 15pt;
+}
+
+.former{
+    position: relative;
+    margin-top: -40px;
+}
+
+.former img{
+    padding-bottom: 3cm;
+}
+
+#systemfordele{
+    position: absolute;
+    margin-top: -615px;
+    background: transparent;
+    margin-left: 160px;
+    margin-right: 850px;
+}
+
+#systemfordele h3{
+    background: transparent;
+}
+
+#systemfordele p{
+    background: transparent;
+    font-size: 12pt;
+}
+
+#systemulemper{
+    position: absolute;
+    margin-top: -615px;
+    background: transparent;
+    margin-left: 920px;
+    margin-right: 160px;
+}
+
+#systemulemper h3{
+    background: transparent;
+}
+
+#systemulemper p{
+    background: transparent;
+    font-size: 12pt;
+}
+
+#webfordele{
+    position: absolute;
+    margin-top: -550px;
+    background: transparent;
+    margin-left: 140px;
+    margin-right: 870px;
+}
+
+#webfordele h3{
+    background: transparent;
+}
+
+#webfordele p{
+    background: transparent;
+    font-size: 12pt;
+}
+
+#webulemper{
+    position: absolute;
+    margin-top: -550px;
+    background: transparent;
+    margin-left: 920px;
+    margin-right: 100px;
+}
+
+#webulemper h3{
+    background: transparent;
+}
+
+#webulemper p{
+    background: transparent;
+    font-size: 12pt;
+}
+
+#variablefordele{
+    position: absolute;
+    margin-top: -600px;
+    background: transparent;
+    margin-left: 140px;
+    margin-right: 870px;
+}
+
+#variablefordele h3{
+    background: transparent;
+}
+
+#variablefordele p{
+    background: transparent;
+    font-size: 12pt;
+}
+
+#variableulemper{
+    position: absolute;
+    margin-top: -600px;
+    background: transparent;
+    margin-left: 980px;
+    margin-right: 60px;
+}
+
+#variableulemper h3{
+    background: transparent;
+}
+
+#variableulemper p{
+    background: transparent;
+    font-size: 12pt;
+}
