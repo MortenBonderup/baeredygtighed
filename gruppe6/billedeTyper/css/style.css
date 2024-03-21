@@ -1,0 +1,217 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #4B4B32;
+
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contentWidth {
+    width: 60%;
+}
+
+h1 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 64px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+h2 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 40px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+h3 {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+    color: white;
+    margin-bottom: 25px;
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 2rem;
+}
+
+a {
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color: white;
+    line-height: 2rem;
+}
+
+a:hover {
+    color: #74936F;
+}
+
+
+
+/* Header */
+header {
+    width: 100%;
+    height: 150px;
+
+    background-color: #F0E9DC;
+}
+
+.tilbagePil {
+    /* width: 100px;
+    height: 100px;
+
+    background-color: black; */
+
+    position: fixed;
+
+    z-index: 3;
+
+    top: 25px;
+    left: 25px;
+
+}
+
+.dyr {
+    width: 100%;
+    height: 100px;
+
+    /* background-color: black; */
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    gap: 100px;
+
+    position: fixed;
+    z-index: 2;
+
+    top: 0;
+    left: 30px;
+
+    width: 250px;
+    height: 100%;
+
+    /* background-color: aqua; */
+}
+
+nav a {
+    text-decoration: none;
+    /*FIX*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 24px;
+    color: white;
+
+    transition: 0.3s;
+}
+
+nav a:hover {
+    color: #74936F;
+}
+
+/***************************************/
+
+/* Start Section */
+.Startsection {
+    padding: 100px 0 100px 0;
+    padding-bottom: 100px;
+    border-bottom: solid 2px white;
+}
+
+/***************************************/
+
+/* Billede typer */
+.kontent {
+    display: flex;
+    flex-direction: column;
+
+    margin-bottom: 100px;
+}
+
+.introTekst {
+    display: flex;
+    gap: 5%;
+    margin: 100px 0 100px 0;
+}
+
+.nummer {
+    width: 15%;
+}
+
+.tekst_felt {
+    width: 85%;
+}
+
+/***************************************/
+
+.filType {
+    display: flex;
+
+    width: 100%;
+}
+
+.filType {
+    width: 100%;
+    gap: 20px;
+}
+
+.størrelses_Box {
+    width: 100%;
+}
+
+.Links {
+    width: 100%;
+
+}
+
+.links {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+
+.LogoBillede {
+    width: 40%;
+}
+
+
+.kodeTekst {
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
+    margin: 100px 0 100px 0;
+}
+
+.kodeImg {
+    width: 100%;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,700;1,700&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+    <header class="center">
+        <a href=""><img class="tilbagePil" src="img/pil.svg" alt=""></a>
+        <img class="dyr .center" src="img/size.svg" alt="">
+        <nav>
+            <a href="index.html#sektion1">1. Billede Type</a>
+            <a href="index.html#sektion2">2. Kompraering</a>
+            <a href="index.html#sektion3">3. Billede loading</a>
+
+        </nav>
+    </header>
+    <main class="center">
+        <section class="Startsection contentWidth">
+            <h1>Billede størrelser filtyper</h1>
+            <p>Gennem denne brochure vil vi guide dig gennem de vigtigste ved hver filtype og hjælpe dig med at træffe
+                informerede beslutninger, når det kommer til at vælge det rette format til dine billeder. Fra det
+                populære og alsidige JPEG-format til det gennemsigtige og tabløst komprimerede PNG-format og det
+                fleksible og professionelle TIFF-format.
+            </p>
+        </section>
+
+        <section class="kontent contentWidth center " id="sektion1">
+            <div class="introTekst">
+                <img class="nummer" src="img/1.svg" alt="">
+                <div class="tekst_felt">
+                    <h2>Billede Type</h2>
+                    <p>Valget af de rigtige billedfiltyper reducerer belastningen på severe, forbedre ydeevnen og
+                        brugeroplevelsen samt mindske den samlede miljøpåvirkning, hvilket gør det til en vigtig faktor
+                        for at
+                        skabe en bæredygtig hjemmeside.
+                        <br> <br>
+                        Så ved at vælge de mest bæredygtige billedformater kan vi alle bidrage til at reducere
+                        energiforbruget
+                        og CO2-udledningen forbundet med digitale produkter. Vi har udforsket forskellige metoder på
+                        hvordan vi
+                        bedst optimere billedstørrelse gennem forskellige komprimeringer. Det er med til at reducere
+                        belastningen på serveren og minimere energiforbruget. Vores mål er at øge bevidstheden om
+                        bæredygtighed
+                        i forhold til digital billedbehandling.
+                    </p>
+                </div>
+            </div>
+
+            <div class="filType center">
+                <div class="filType center">
+                    <img class="størrelses_Box" src="img/filer.svg" alt="">
+                </div>
+            </div>
+        </section>
+        <section class="kontent contentWidth center " id="sektion2">
+            <div class="introTekst">
+                <img class="nummer" src="img/2.svg" alt="">
+                <div class="tekst_felt">
+                    <h2>Kompraering</h2>
+                    <p>At komprimere billeder handler om at reducere filstørrelsen på et billede ved at fjerne
+                        unødvendig information eller optimere den eksisterende information, samtidig med at
+                        billedkvaliteten så vidt muligt opretholdes. Dette er især nyttigt, når man skal dele eller
+                        gemme billeder online, da mindre filstørrelser fører til hurtigere indlæsningstider og mindre
+                        båndbreddeforbrug.
+                    </p>
+                </div>
+            </div>
+
+            <div class="Links">
+                <h2>Links:</h2>
+                <div class="links">
+                    <a href="https://tinypng.com/">www.tinypng.com</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="kontent contentWidth center " id="sektion3">
+            <div class="introTekst">
+                <img class="nummer" src="img/3.svg" alt="">
+                <div class="tekst_felt">
+                    <h2>Billede loading</h2>
+                    <p>"Billede loading" refererer til praksisen med at indlæse billeder på en hjemmeside dynamisk, når
+                        de bliver synlige i brugerens viewport, i stedet for at indlæse alle billeder på siden på én
+                        gang, når brugeren først besøger hjemmesiden. Dette kaldes også for "lazy loading".
+                        Når et billede loades, mens brugeren ruller ned på siden, skaber det en mere glidende og
+                        behagelig brugeroplevelse, da det reducerer ventetiden og forhindrer unødvendig scrolling. Dette
+                        er særligt nyttigt på mobil-enheder, hvor båndbredde og ressourceforbrug er begrænsede.
+                        <br><br>
+                        Implementeringen af lazy loading kræver normalt brug af JavaScript og HTML attributter, der
+                        fortæller browseren, hvornår billeder skal indlæses.
+
+                    </p>
+                </div>
+            </div>
+
+            <img class="LogoBillede" src="img/logo.svg" alt="Billede" loading="lazy">
+
+
+            <div class="kodeTekst">
+                <div class="tekst_felt">
+                    <h2>Kode:</h2>
+                    <p>"Loading" attributen specificerer sig, om en browser der skal indlæse et billede øjeblikkeligt
+                        eller om den skal udsætte indlæsningen af billedet, som ikke er synlig på skærmen, indtil for
+                        eksempel brugeren scroller hen imod dem og er ved dens viewpoint.
+                        <br><br>
+                        En god tommelfingerregel er at tilføje "loading=lazy" kun til billeder, der er placeret under
+                        det område, der først vises på skærmen, altså det, man normalt skal scrolle for at se. Denne
+                        fremgangsmåde sikrer, at billedet ikke vises eller indlæses før brugeren bevæger sig tættere på
+                        dem. Dette kan forbedre ydeevnen og hastigheden af en webside, da det sparer båndbredde og
+                        ressourcer, indtil billederne faktisk er nødvendige for brugeren.
+
+
+                    </p>
+                </div>
+
+                <div class="HTML kodeImg">
+                    <h2>HTML</h2>
+                    <img class="kodeImg" src="img/HTML.png" alt="">
+                </div>
+
+        </section>
+
+
+    </main>
+</body>
+
+</html>
