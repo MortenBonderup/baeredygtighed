@@ -19,3 +19,9 @@ body {
     height: 100vh;
     background-color: #4C4A33;
 }
+
+@media only screen and (max-width: 625px) {
+  body {
+    height: auto;
+  }
+}
