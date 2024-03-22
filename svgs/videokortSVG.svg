@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 402.1 321.15">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #231f20;
+        font-family: PlayfairDisplay-Regular, 'Playfair Display';
+        font-size: 72px;
+        font-variation-settings: 'wght' 400;
+      }
+
+      .cls-2 {
+        fill: #eee8dd;
+        stroke: #231f20;
+      }
+
+      .cls-2, .cls-3 {
+        stroke-miterlimit: 10;
+      }
+
+      .cls-4 {
+        letter-spacing: -.03em;
+      }
+
+      .cls-3 {
+        fill: none;
+        stroke: #a9ba9f;
+      }
+
+      .cls-5 {
+        fill: #4d4a34;
+        stroke-width: 0px;
+      }
+    </style>
+  </defs>
+  <rect class="cls-2" x=".5" y=".5" width="401.1" height="320.15"/>
+  <circle class="cls-5" cx="144.39" cy="243.93" r="72.35"/>
+  <circle class="cls-3" cx="105.95" cy="233.04" r="83.92"/>
+  <text class="cls-1" transform="translate(108.89 179.8)"><tspan class="cls-4" x="0" y="0">V</tspan><tspan x="43.34" y="0">ideo</tspan></text>
+</svg>
