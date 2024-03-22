@@ -1,0 +1,133 @@
+body{
+    background-color: #4C4A33;
+    color: #fff;
+    padding: 10vw;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-size: 4em;
+    font-weight: 500;
+    color: #A9BA9F;
+}
+
+h2{
+    font-family: "Playfair Display", serif;
+    font-size: 2.5em;
+    font-weight: 400;
+    color: #fff;
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #fff;
+    font-size: 1em;
+}
+
+#firepaastribe{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+margin-bottom: 5vh;
+}
+.fireblok{
+    width: 22%;
+}
+.fireblok h1{
+    margin-bottom: 2vh;
+    font-size: 4em;
+}
+
+a{
+    color: #fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.animationswrapper{
+    display: flex;
+    align-items: center;
+    margin-top: 5vw;
+    height: 50vh;
+}
+
+.animationskolonne1{
+    width: 45%;
+    padding-right: 7vw;
+    margin-bottom: 5vw;
+    
+}
+
+.animationskolonne2{
+    width: 40%;
+    margin-bottom: 5vw;
+}
+
+.ref{
+    font-size: 0.8em;
+}
+
+table {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    background-color: #A9BA9F;
+    text-align: left;
+    padding: 12px;
+    
+  }
+
+  th{
+    background-color: #889C74;
+  }
+.marginauto{
+    text-align: center;
+}
+#vidtxt{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#vidtxt img{
+    width: 70%;
+    object-fit: cover;
+}
+#vidtxt p{
+    width: 25%;
+}
+#topaastribe{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.toblok{
+    width: 47%;
+    margin-bottom: 10vh;
+    margin-top: 5vh;
+}
+.toblok h1{
+    font-size: 7em;
+    text-align: center;
+}
+.tocirkler{
+    background-image: url(images/tocirkler.png);
+    background-size: 50%;
+    background-repeat: no-repeat;
+}
+.beige{
+    background-image: url(images/beige.png);
+    background-size: 30%;
+    background-repeat: no-repeat;
+    background-position-y: 5vh;
+    background-position-x: 5%;
+}
+iframe{
+    width: 110%;
+    height: 50vh;
+    object-fit: cover;
+    border: none;
+
+}
