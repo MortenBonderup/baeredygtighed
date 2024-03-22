@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+
+body{
+    background-color: #EFE9DD;
+}
+
+h1{
+    font-family: "Playfair Display", serif;
+    font-weight:800;
+    font-size: 90pt;
+    color: #4C4A34;
+}
+
+h2{
+    font-family: "Playfair Display", serif;
+    font-weight:500;
+    font-size: 50pt;
+    color: #4C4A34;
+    margin-left: 6vw;
+    margin-top:2vw;
+}
+
+p{
+    font-family: Verdana;
+    font-weight: 300;
+    font-size: 13pt;
+    color: #4C4A34;
+    margin: 6vw;
+    
+}
+
+div h1{
+    text-align: center;
+    justify-content: center;
+    margin: 6vw;
+}
+
+.lottie-fil{
+    margin-left:6vw;
+}
+
+.indhold{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    margin:3vw;
+}
+
+.indhold div{
+width:50%;
+}
+
+.lilleoverskriftslinje{
+    width: 200px;
+    height: 1px;
+    background-color:#4C4A34;
+    margin: auto;
+    margin-bottom: 40px;
+}
